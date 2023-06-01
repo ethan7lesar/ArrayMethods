@@ -31,10 +31,13 @@ function addObject() {
   let table = document.querySelector(".tableInfo");
   table.innerHTML = "";
   array2.forEach((data) => {
-    table.innerHTML += ` <tr>
+    table.innerHTML += 
+    ` 
+    <tr>
     <td>${data.name}</td>
     <td>${data.surname}</td> 
-    </tr>`;
+    </tr>
+    `;
   
 });
 
