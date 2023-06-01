@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <title>Array Excercise</title>
   </head>
   <body>
     <main>
       <h1>Array Excercise</h1>
-      <input type="text" id="input" />
-      <button onclick="add()">Add</button>
-      <p id="display"></p>
-
+      <div class="container">
+        <div class="card">
+          <h2>Add to Array</h2>
+          <input type="text" id="input" />
+          <button class="inputButton" onclick="add()">Add</button>
+          <p id="display"></p>
+        </div>
+      </div>
       <div class="form">
         <input type="text" id="name" />
         <input type="text" id="surname" />
@@ -26,9 +30,7 @@
               <th>Surname</th>
             </tr>
             <div>
-              <tr class="tableInfo">
-
-              </tr>
+              <tr class="tableInfo"></tr>
             </div>
           </table>
         </div>
