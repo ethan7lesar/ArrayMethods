@@ -33,12 +33,22 @@ function addObject() {
   array2.forEach((data) => {
     table.innerHTML += 
     ` 
+    <tbody>
     <tr>
-    <td>${data.name}</td>
-    <td>${data.surname}</td> 
+      <td>${data.name}</td>
+      <td>${data.surname}</td>
     </tr>
+    <tr>
+    </tbody>
     `;
   
 });
 
 }
+
+// function clear
+function restart() {
+  window.location.reload();
+}
+
+
